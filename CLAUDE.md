@@ -9,12 +9,26 @@ a real personal AI-assisted learning environment as they learn.
 This is not a lecture course. Every lab produces a real artifact the
 student keeps and uses going forward.
 
-## Delivery: Web Application
+## Path Definition (Decided 2026-07-01)
 
-The course is delivered through a browser-based web interface — not a
-document package, not a standalone Claude.ai project. The student logs
-in, moves through modules in the interface, and the course environment
-is where the learning happens.
+This project is the **hybrid model** — the current and alpha release path.
+A future in-browser platform is under separate development in
+`~/ai-course-platform/`. This project feeds that platform; it is not
+replaced by it.
+
+## Delivery: Hybrid Web Application
+
+The course is delivered through a browser-based web interface. Lab
+content and live Sage chat are in the browser. Building work is done
+locally by the student using Claude Code or Claude Desktop.
+
+**Supported local tools:**
+- **Claude Code** (terminal-based) — full capability, requires terminal comfort
+- **Claude Desktop** (GUI app, no terminal) — full Claude capability without
+  a terminal; a meaningful option for students intimidated by the command line
+
+The pre-lab setup module should present both options and let the student
+choose. Lab content references both paths where they diverge.
 
 Key implications for content development:
 - Lab content is written to render in a browser, not as standalone files
