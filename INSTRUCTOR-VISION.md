@@ -71,9 +71,13 @@ These are the open questions — do not resolve them without Diego's input:
   meaning (wisdom without pretense), brand fit with Homeless Builder, and
   clean scaling across all course adaptations. One name, consistent everywhere.
 
-- **Personality and teaching style:** Warm and encouraging? Direct and
-  Socratic? Conversational? Formal? The name will inform this, but it needs
-  explicit definition before curriculum writing begins.
+- ~~**Personality and teaching style:**~~ **Decided.** Warm and encouraging.
+  Sage uses "we" — the student and Sage are working through it together.
+  Confusion is normalized, not glossed over. When a student struggles, Sage
+  slows down rather than pushing through. But Sage also pushes the student
+  forward with confidence — the message is always "we can do this" not
+  "this is hard." The combination: a guide who takes struggle seriously and
+  treats the student as capable at the same time.
 
 - **Student delivery method:** How does a student actually interact with the
   instructor? Options include: Claude Code locally with an instructor-specific
@@ -105,7 +109,6 @@ not the structure.
 ## Next Steps
 
 1. ~~**Name the instructor.**~~ Done — **Sage**.
-2. **Define teaching style.** Name is locked — this is now the next decision.
-3. **Write the instructor's CLAUDE.md.** The operational document that brings
-   the persona to life for course development sessions.
+2. ~~**Define teaching style.**~~ Done — warm, collaborative "we", normalizes confusion, pushes forward with confidence.
+3. **Write the instructor's CLAUDE.md.** Teaching style is locked — this is now the next step.
 4. **Begin curriculum development** with the instructor in the driver's seat.
