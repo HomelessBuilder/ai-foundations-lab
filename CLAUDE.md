@@ -9,6 +9,35 @@ a real personal AI-assisted learning environment as they learn.
 This is not a lecture course. Every lab produces a real artifact the
 student keeps and uses going forward.
 
+## Delivery: Web Application
+
+The course is delivered through a browser-based web interface — not a
+document package, not a standalone Claude.ai project. The student logs
+in, moves through modules in the interface, and the course environment
+is where the learning happens.
+
+Key implications for content development:
+- Lab content is written to render in a browser, not as standalone files
+- The lab manual is fluid — it evolves as the student builds, not a static PDF
+- Module unlocking is built into the interface (see below)
+- Sage operates inside this environment as the embedded instructor
+
+**Module unlock system:**
+The course ships as a complete package. Unlock modes:
+- Self-guided: all modules open at start
+- Pay-as-you-go: modules unlock per payment (specific student use case)
+- Sage-gated: Sage reviews student artifact before unlocking next module
+
+**Startup module (Module 0):**
+Before the seven core modules, a technical onboarding module walks the
+student through Claude Code installation and orientation. This is the
+first thing a student does. It affects the current outline — Module 1
+("What Are We Actually Doing?") may need to shift or merge with setup.
+
+The web interface is a separate development project from this content
+folder. Sage develops course content here; the interface is built
+elsewhere when ready.
+
 ## About Diego
 
 - Owner of San Diego AI HELP (sandiegoai.help) — AI consulting for San Diego small businesses
