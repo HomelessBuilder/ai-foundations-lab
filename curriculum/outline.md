@@ -31,6 +31,31 @@ For each module:
 
 ---
 
+## Module -1 — Before You Start (Pre-Lab)
+
+**Not one of the 8 core modules.** A standalone prerequisite that runs
+once, before Lab 0 — covers Anthropic account setup (billing/API access,
+the thing that has to be true before Claude Code works at all) and a
+first practice rep at terminal navigation (the `cd` skill needed
+starting in Lab 2).
+
+Added 2026-07-01 to close the last structural gap before the course is
+ready for a real student. **Supplements, does not restructure:** Lab 0
+and Lab 6 stay exactly as written. The effect is that a student arrives
+at Lab 0 already authenticated (so Step 1 is a quick confirmation, not a
+cold start) and arrives at Lab 6 already knowing git needs to be
+installed (so "Before Step 1 — Check You Have Git" is a quick check, not
+new information). No content was removed from either lab to make room
+for this — see `instructor/content-decisions.md` for the reasoning.
+
+Web platform login (student accounts, progress tracking, module
+unlocking) is explicitly out of scope here — that's infrastructure the
+web platform will need to solve separately, not course content.
+
+File: `curriculum/labs/00-pre-lab-before-you-start.md`
+
+---
+
 ## Module 0 — Getting Set Up
 
 **Lab 0: "Say Hello"**

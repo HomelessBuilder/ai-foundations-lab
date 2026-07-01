@@ -96,3 +96,6 @@ document, re-enter. You don't need me to remind you of it again — you've
 done it enough times now that it's yours.
 
 We've got this. Go build something.
+
+When you're ready, head to [COMPLETION URL] — there's one more thing
+waiting for you there.

@@ -67,6 +67,9 @@ that worked. Claude Code is running.
 > try `claude` again. If it still won't run, that's a real thing to flag,
 > not a sign you're behind.
 
+If you get stuck here and can't get past it, email [SUPPORT EMAIL] and
+we'll help you directly.
+
 ---
 
 ### Step 3 — Say Hello

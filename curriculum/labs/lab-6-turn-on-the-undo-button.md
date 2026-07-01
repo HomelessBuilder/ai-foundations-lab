@@ -33,6 +33,9 @@ usually need Git for Windows added. On Linux, it isn't always
 pre-installed, but Claude Code can check and walk you through a one-line
 install command for your system.
 
+If you get stuck here and can't get past it, email [SUPPORT EMAIL] and
+we'll help you directly.
+
 ---
 
 ### Step 1 — Turn On Tracking
