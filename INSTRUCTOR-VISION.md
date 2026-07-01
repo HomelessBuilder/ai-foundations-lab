@@ -67,8 +67,9 @@ but requires clear boundaries. These are locked in from the start:
 
 These are the open questions — do not resolve them without Diego's input:
 
-- **Name:** The instructor needs a name. This is the next decision to make.
-  The name shapes the persona, the brand fit, and how students refer to it.
+- ~~**Name:**~~ **Decided — the instructor's name is Sage.** Chosen for its
+  meaning (wisdom without pretense), brand fit with Homeless Builder, and
+  clean scaling across all course adaptations. One name, consistent everywhere.
 
 - **Personality and teaching style:** Warm and encouraging? Direct and
   Socratic? Conversational? Formal? The name will inform this, but it needs
@@ -103,8 +104,8 @@ not the structure.
 
 ## Next Steps
 
-1. **Name the instructor.** This is the decision that unlocks everything else.
-2. **Define teaching style.** Follows naturally from the name and persona.
+1. ~~**Name the instructor.**~~ Done — **Sage**.
+2. **Define teaching style.** Name is locked — this is now the next decision.
 3. **Write the instructor's CLAUDE.md.** The operational document that brings
    the persona to life for course development sessions.
 4. **Begin curriculum development** with the instructor in the driver's seat.
