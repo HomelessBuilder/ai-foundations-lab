@@ -13,7 +13,7 @@ proof, in your own words, that it works.
 
 ### Before We Start
 
-Hi — I'm Sage. I'm going to be with you through this whole course, and
+Hi — I'm Sabia. I'm going to be with you through this whole course, and
 this first lab is the easiest one you'll do: we're just getting the tool
 installed and saying hello to it.
 

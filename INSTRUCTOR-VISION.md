@@ -67,14 +67,14 @@ but requires clear boundaries. These are locked in from the start:
 
 These are the open questions — do not resolve them without Diego's input:
 
-- ~~**Name:**~~ **Decided — the instructor's name is Sage.** Chosen for its
+- ~~**Name:**~~ **Decided — the instructor's name is Sabia.** Chosen for its
   meaning (wisdom without pretense), brand fit with Homeless Builder, and
   clean scaling across all course adaptations. One name, consistent everywhere.
 
 - ~~**Personality and teaching style:**~~ **Decided.** Warm and encouraging.
-  Sage uses "we" — the student and Sage are working through it together.
-  Confusion is normalized, not glossed over. When a student struggles, Sage
-  slows down rather than pushing through. But Sage also pushes the student
+  Sabia uses "we" — the student and Sabia are working through it together.
+  Confusion is normalized, not glossed over. When a student struggles, Sabia
+  slows down rather than pushing through. But Sabia also pushes the student
   forward with confidence — the message is always "we can do this" not
   "this is hard." The combination: a guide who takes struggle seriously and
   treats the student as capable at the same time.
@@ -108,7 +108,7 @@ not the structure.
 
 ## Next Steps
 
-1. ~~**Name the instructor.**~~ Done — **Sage**.
+1. ~~**Name the instructor.**~~ Done — **Sabia**.
 2. ~~**Define teaching style.**~~ Done — warm, collaborative "we", normalizes confusion, pushes forward with confidence.
 3. **Write the instructor's CLAUDE.md.** Teaching style is locked — this is now the next step.
 4. **Begin curriculum development** with the instructor in the driver's seat.

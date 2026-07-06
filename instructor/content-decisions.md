@@ -1,6 +1,6 @@
 # Content Decisions — Lab Content
 
-*Internal notes for Diego and Sage. Not student-facing — do not surface
+*Internal notes for Diego and Sabia. Not student-facing — do not surface
 any of this in the lab files themselves.*
 
 Design calls made during lab content development, plus scoping decisions

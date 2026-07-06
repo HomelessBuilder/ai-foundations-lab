@@ -1,6 +1,6 @@
 # Overseer Briefing — 2026-07-01
 
-*From: Overseer instance (~/) | To: Sage | Action required*
+*From: Overseer instance (~/) | To: Sabia | Action required*
 
 Two independent workstreams. Do them in the order listed.
 
@@ -24,25 +24,25 @@ The closing paragraph of Lab 7 should hand the student somewhere rather than sim
 
 ---
 
-## Part 2 — Sage Chat Interface Build
+## Part 2 — Sabia Chat Interface Build
 
-Build a Sage chat interface as a single-page web app on sandiegoai.help. This is the minimum viable platform for alpha testing — no student accounts, no payment, no module unlock. Just the chat. It should look and feel like a real product, not a prototype.
+Build a Sabia chat interface as a single-page web app on sandiegoai.help. This is the minimum viable platform for alpha testing — no student accounts, no payment, no module unlock. Just the chat. It should look and feel like a real product, not a prototype.
 
 **Build these three steps in order. Do not skip ahead.**
 
 ### Step 1 — UI mockup with scripted responses (build and deliver first)
 
-Build the full chat page UI. For this step, Sage's responses are pre-written — no API calls, no backend. Write 5–6 sample Sage exchanges that represent how Sage would actually respond during Lab 0 or Lab 1. These scripted responses serve two purposes: they let Diego see how the interface looks and feels before any backend work begins, and they demonstrate Sage's voice in context.
+Build the full chat page UI. For this step, Sabia's responses are pre-written — no API calls, no backend. Write 5–6 sample Sabia exchanges that represent how Sabia would actually respond during Lab 0 or Lab 1. These scripted responses serve two purposes: they let Diego see how the interface looks and feels before any backend work begins, and they demonstrate Sabia's voice in context.
 
 The page should be:
 - On-brand with sandiegoai.help — navy/blue palette (`--navy: #0d1f3c`, `--blue: #1a56db`, `--blue-light: #3b82f6`), DM Sans font, same design tokens as the rest of the site
-- Sage clearly identified by name with a brief descriptor ("Your AI course instructor")
-- Conventional message thread layout (user messages right, Sage messages left)
-- A "Sage is thinking..." indicator visible between message and response in the scripted flow
+- Sabia clearly identified by name with a brief descriptor ("Your AI course instructor")
+- Conventional message thread layout (user messages right, Sabia messages left)
+- A "Sabia is thinking..." indicator visible between message and response in the scripted flow
 - No login, no session persistence — fresh conversation on each page load
 - Mobile-responsive
 - `noindex, nofollow` meta (alpha only)
-- Path: `sandiegoai.help/sage/` (place the file at `src/sage/index.html`)
+- Path: `sandiegoai.help/sabia/` (place the file at `src/sabia/index.html`)
 
 Diego reviews the UI and approves before Step 2 begins.
 
@@ -50,12 +50,12 @@ Diego reviews the UI and approves before Step 2 begins.
 
 A Lambda function that:
 - Receives the student's message and full conversation history from the client
-- Prepends Sage's full persona from `instructor/SAGE.md` as the system prompt
+- Prepends Sabia's full persona from `instructor/SABIA.md` as the system prompt
 - Calls the Anthropic Claude API — model `claude-sonnet-4-6`
-- Returns Sage's response to the client
+- Returns Sabia's response to the client
 - Stores nothing server-side — conversation state is stateless, kept in the browser; if the student refreshes, the conversation resets (acceptable for alpha)
 
-The Anthropic API key goes in Lambda's environment variables — never in client-side code. API Gateway route: POST `/sage`, using the same AWS infrastructure pattern as the existing contact form endpoint (`https://8uyh0ftkel.execute-api.us-east-2.amazonaws.com/prod/contact`). The new route will be `/prod/sage` on the same gateway or a new endpoint — to be confirmed when building.
+The Anthropic API key goes in Lambda's environment variables — never in client-side code. API Gateway route: POST `/sabia`, using the same AWS infrastructure pattern as the existing contact form endpoint (`https://8uyh0ftkel.execute-api.us-east-2.amazonaws.com/prod/contact`). The new route will be `/prod/sabia` on the same gateway or a new endpoint — to be confirmed when building.
 
 ### Step 3 — Wire the UI to the backend (after Lambda is deployed)
 

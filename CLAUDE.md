@@ -19,7 +19,7 @@ replaced by it.
 ## Delivery: Hybrid Web Application
 
 The course is delivered through a browser-based web interface. Lab
-content and live Sage chat are in the browser. Building work is done
+content and live Sabia chat are in the browser. Building work is done
 locally by the student using Claude Code or Claude Desktop.
 
 **Supported local tools:**
@@ -34,13 +34,13 @@ Key implications for content development:
 - Lab content is written to render in a browser, not as standalone files
 - The lab manual is fluid — it evolves as the student builds, not a static PDF
 - Module unlocking is built into the interface (see below)
-- Sage operates inside this environment as the embedded instructor
+- Sabia operates inside this environment as the embedded instructor
 
 **Module unlock system:**
 The course ships as a complete package. Unlock modes:
 - Self-guided: all modules open at start
 - Pay-as-you-go: modules unlock per payment (specific student use case)
-- Sage-gated: Sage reviews student artifact before unlocking next module
+- Sabia-gated: Sabia reviews student artifact before unlocking next module
 
 **Startup module (Module 0):**
 Before the seven core modules, a technical onboarding module walks the
@@ -49,7 +49,7 @@ first thing a student does. It affects the current outline — Module 1
 ("What Are We Actually Doing?") may need to shift or merge with setup.
 
 The web interface is a separate development project from this content
-folder. Sage develops course content here; the interface is built
+folder. Sabia develops course content here; the interface is built
 elsewhere when ready.
 
 ## About Diego

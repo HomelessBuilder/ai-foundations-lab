@@ -1,6 +1,6 @@
 # AI Foundations Lab — Curriculum Outline
 
-*Drafted by: Sage*
+*Drafted by: Sabia*
 *Status: Approved by Diego — 2026-06-30. All eight modules (0–7) signed
 off. Lab content can begin.*
 
