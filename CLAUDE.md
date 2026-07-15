@@ -54,10 +54,14 @@ elsewhere when ready.
 
 ## About Diego
 
-- Owner of San Diego AI HELP (sandiegoai.help) — AI consulting for San Diego small businesses
-- Content brand: Homeless Builder — documents the journey of building with AI
+See `~/ABOUT-ME.md` for baseline identity/voice.
+
 - This course is a near-term revenue priority and potential foundation for a broader training business
 - Advise first, act second — surface options before building anything
+
+Working notes for this project (design calls, scoping decisions) live in
+`instructor/content-decisions.md` — that file is this project's lightweight
+Notes equivalent; don't create a separate one.
 
 ## The Student
 
